@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/bt.ico">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/7d1961bd63.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Profile page</title>
+</head>
+
+<body>
+
+    <div class="top-container">
+        <h1>I'm Ben</h1>
+        <img class="headshot" src="images/headshot.jpg" alt="headshot">
+        <h2 class="title-text">A Web Developer</h2>
+    </div>
+
+    <div class="middle-container">
+        <div class="row">
+            <div class="col-md skills-col">
+                <i class="fas fa-tools fa-4x about-icon"></i>
+                <h3>About Me</h3>
+                <p>
+                    I'm a father to two amazing little boys and they've made life the best adventure possible. <br>
+                    I try to make the most of my spare time. Weather permitting, I can usually be found at the coast climbing sea cliffs or out trekking up a mountain in North Wales. When it's wet outside you'll find me at an indoor climbing wall getting some practice in for when the sun comes back out. <br>
+                    Take a 10 minute stroll from our house, over the river Avon, and you'll end up at our family allotment full of homegrown fruit and veg. The kids love it here and they instantly become free range!
+                </p>
+            </div>
+
+            <div class="col-md skills-col">
+                <i class="fas fa-code fa-4x about-icon""></i>
+                <h3>Skills</h3>
+                <p>
+                    Over the past year, I've been on a bit of a rollercoaster ride, with minimal coding experience (some HTML and CSS around 20 years ago); it's been a brilliant journey so far. <br>
+                    A little confused at where to start, I began learning Python with the intention of becoming a Software Engineer but as part of this a course I was doing involved making a small web app and I was hooked instantly. Turns out Web Development is the career for me! <br>
+                    Since then, I have undertaken multiple courses and challenges trying to absorb everything Front and Back-end that I can. So far I have started learning: HTML, CSS, JavaScript, NodeJS and a little bit of PHP. Alongside this I have also used Frameworks including Bootstrap, Jquery and ExpressJS. <br>
+                    Of course, there's no point becoming a Developer without ditching the Windows GUI so I've tried to master the Command Line Interface, as well getting familiar with version control using both Git and GitHub. 
+                </p>
+            </div>
+
+            <div class="col-md skills-col">
+                <i class="fas fa-graduation-cap fa-4x about-icon"></i>
+                <h3>Career</h3>
+                <p>After 18 successful years as a Plumbing & Heating Engineer, I have taken the first step toward fulfilling my lifelong dream of working in Tech.  <br>
+                    Since March 2020, I have been studying Front & Back-End Development and, as of January 2021, have reduced my working hours to dedicate more time to my study. <br>
+                    My ultimate goal is to be employed as a Full Stack Developer, working within a friendly, fun team for a forward thinking company where my work would make an impact to the success of the business. 
+                    
+                    </p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="bottom-container">
+        <h2>Projects:</h2>
+        <div class="row">
+            <div class="col-lg project-col">
+                <img class="api-image-left" src="/images/dice-screenshot.png" alt="sign in form using mailchimp API">
+                <a class="link-text" href="dicee.html">JavaScript Dice Game</a>
+                <p class="project-text">
+                    <br> Here I have created a dice game using JavaScript, when you refresh the browser 
+                    the die will roll again and will tell you which player wins or if it's a draw. 
+                    
+                </p>
+            </div>
+            <div class="col-lg project-col">
+                <img class="api-image-right" src="/images/weather.png" alt="sign in form using mailchimp API">
+                <a class="link-text" href="https://limitless-peak-80052.herokuapp.com/">Web App that allows you to find
+                    your local weather</a>
+                <p class="project-text">
+                    <br> This project connects to the Open Weather Map API, created using NodeJS and ExpressJS it allows
+                    you to search for any city and will return the temperature, a description of the current weather and
+                    the icon that corresponds to the current weather.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 project-col">
+                <img class="api-image-left" src="/images/api2.png" alt="sign in form using mailchimp API">
+                <a class="link-text" href="https://damp-gorge-84551.herokuapp.com/">Sign up form integrated with the
+                    MailChimp API</a>
+                <p class="project-text">
+                    <br> This is showcasing a sign up form I have created with NodeJS and ExpressJS, it connects to the
+                    MailChimp
+                    API.
+                    The form is live so I will recieve any details you fill. The app is deployed through Heroku.
+                    Sadly I don't have a newsletter so if you do fill in the form maybe leave a fake email address!
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <footer class="footer">
+        <h2>Contact:</h2>
+        <a href="tel:07900435058" class="fas fa-mobile-alt fa-2x contact-icon"></a>
+        <a href="mailto:8btaylor6@gmail.com" class="fas fa-envelope-square fa-2x contact-icon"></a>
+        <a href="https://www.linkedin.com/in/ben-taylor-5579691b0/" class="fab fa-linkedin-in fa-2x contact-icon"></a>
+        <a href="https://github.com/beta86" class="fab fa-github fa-2x contact-icon"></a>
+
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
