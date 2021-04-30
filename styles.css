@@ -89,6 +89,8 @@ h3 {
     color: #DAE6E6;
     font-size: 1.2rem;
     font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    text-decoration: underline;
 }
 
 .link-text:hover {
